@@ -12,7 +12,11 @@ int main(){
 	cout << "You entered a positive Number:" << number << endl;
 	}
 
-	cout << "This state is always executed" << endl;
-	return 0;
+	else (number <0);
+	{
+	cout << " You entered a Negative number:" << number << endl;
+	}
 
+	cout << "This state is always executed so you have no choice" << endl;
+	return 0;
 }
